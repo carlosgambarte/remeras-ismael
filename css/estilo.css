@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 80px;
+    
+}
+
+.superior{
+background-color: black;
+color: white;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.sininteres{
+    margin-bottom: 0;
+}
+
+.fondoheader{
+    background-color: rgb(58, 56, 56);
+}
+
+.miboton {
+    background-color: blue;
+    color: white;
+    
+   
+}
+
+.miboton :hover{
+    
+   background-color: white;
+    color: blue;
+    border: 2px solid rgb(255, 247, 247) ;
+}
+
+.botoncito{
+    background-color:white;
+}
+
+.primera {
+    width: 110%;
+}
+
+.logocentral {
+    width: 80%;
+    
+}
+
+.remeralisa {
+    width: 90%;
+}
+
+.enlaces {
+   
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+
+    }
+
+    .texto1{
+        background: radial-gradient( rgb(119, 119, 119), black);
+        
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+    }
+
+    .diseños{ 
+        font-size: 4rem;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: white;
+        
+    }
+
+    .pie{
+        background-image: url(/img/fondo\ footer.jpg);
+        
+
+    }
+    .camioncito{
+        width: 20%;
+       
+   
+    }
+
+    .cont-envios{
+        color: white;
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     padding-top: 2rem;
+    }
+
+    .cont-pagos{
+        color: white;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    /** nosotros **/
+
+    .contenido{
+        background-image: url(/img/fondo\ footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+    }
+
+    .imagen4{
+        width: 80%;
+        margin-top: 3rem;
+        padding-left: 3rem;
+
+    }
+
+    .cont_texto{ 
+        margin-top: 3rem;
+        padding-right: 5rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        
+    }
+
+    .titulodecontenido{ 
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        text-decoration:underline;
+    }
+
+    .parrafo1{ 
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+    /****talles****/
+
+  
+    
+    .tabla{ 
+        font-size: 1.8rem;
+        color: white;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 3rem;
+    }
+    
+    .talleremera{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    }
+
+    
+  .tablaremera{
+    width: 50%;
+    padding-top: 5rem;
+    }
+
+    .tallebuzo{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+  .tablabuzos{
+    width: 50%;
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  
+  /*****contacto*****/
+   
+  .lisas{
+    width: 100%;
+    margin-top: 8rem;
+    padding-left: 5rem;
+    margin-bottom: 8rem;
+  }
+
+  .formulario{
+    margin-top: 5rem;
+    
+  }
+  .contacto{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .escribinos{
+    color: white;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+  }
+
+  .email{
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .mensaje{
+    color: white;
+    font-size: 1rem;
+  }
+
+  .nombre{
+    color: white;
+    font-size: 1rem;
+  }
+  .asunto{
+    color: white;
+    font-size: 1rem;
+  }
+
+  /*****media queries*****/
+ 
+
+  
+
+ @media (max-width: 600px) {
+    
+    .diseños {
+        font-size: 2rem;
+    }
+    .titulodecontenido{
+        font-size: 2rem;
+    }
+    .imagen4{
+        padding-left: 6rem;
+    }
+    .parrafo1{
+        font-size: 0.8rem;
+    }
+    .escribinos { 
+        font-size: 1.2rem;}
+        .lisas{
+            padding-left: 1rem;
+            margin-top: 5rem;
+            margin-bottom: 3rem;
+        }
+        .cont_texto{
+            padding-right: 1rem;
+        }
+        .tabla{ 
+            font-size: 1.5rem;
+        }
+        .tablaremera{
+            width: 80%;
+            padding-top: 2rem;
+        }
+        .tablabuzos{
+            width: 80%;
+            padding-top: 3rem;
+        }
+  
+  }
+
+  @media (min-width: 601px) and (max-width:900px) {
+    .diseños {
+        font-size: 3rem;
+    }
+    .titulodecontenido{
+        font-size: 3rem;
+    }
+    .imagen4{
+        padding-left: 8rem;
+    }
+    .parrafo1{
+        font-size: 1.3rem;
+    }
+    .escribinos { 
+        font-size: 1.2rem;}
+        .lisas{
+            padding-left: 1rem;
+            margin-top: 5rem;
+            margin-bottom: 3rem;
+        }
+        .cont_texto{
+            padding-right: 1rem;
+        }
+        .tabla{ 
+            font-size: 1.5rem;
+        }
+        .tablaremera{
+            width: 60%;
+            padding-top: 2rem;
+        }
+        .tablabuzos{
+            width: 60%;
+            padding-top: 3rem;
+        }
+  
+  }
+
+  
+
+  
