@@ -92,7 +92,7 @@ justify-content: center;
     }
 
     .pie{
-        background-image: url(/img/fondo\ footer.jpg);
+        background-image: url(../img/fondo\ footer.jpg);
         
 
     }
@@ -120,7 +120,7 @@ justify-content: center;
     /** nosotros **/
 
     .contenido{
-        background-image: url(/img/fondo\ footer.jpg);
+        background-image: url(../img/fondo\ footer.jpg);
         background-repeat: no-repeat;
         background-size: cover;
       
